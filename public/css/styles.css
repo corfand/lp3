@@ -1,0 +1,455 @@
+body{
+    font-family: 'FonteFifa';
+    color: #BDB289;
+}
+
+.navbar {
+    margin: 0 !important;
+}
+
+   
+.arg{
+    background-image: url("../img/flags/md/arg.png");
+}
+.aus{
+    background-image: url("../img/flags/md/aus.png");
+}
+.bel{
+    background-image: url("../img/flags/md/bel.png");
+}
+.bra{
+    background-image: url("../img/flags/md/bra.png");
+}
+.col{
+    background-image: url("../img/flags/md/col.png");
+}
+.crc{
+    background-image: url("../img/flags/md/crc.png");
+}
+.cro{
+    background-image: url("../img/flags/md/cro.png");
+}
+.den{
+    background-image: url("../img/flags/md/den.png");
+}
+.egy{
+    background-image: url("../img/flags/md/egy.png");
+}
+.eng{
+    background-image: url("../img/flags/md/eng.png");
+}
+.esp{
+    background-image: url("../img/flags/md/esp.png");
+}
+.fra{
+    background-image: url("../img/flags/md/fra.png");
+}
+.ger{
+    background-image: url("../img/flags/md/ger.png");
+}
+.irn{
+    background-image: url("../img/flags/md/irn.png");
+}
+.isl{
+    background-image: url("../img/flags/md/isl.png");
+}
+.jpn{
+    background-image: url("../img/flags/md/jpn.png");
+}
+.kor{
+    background-image: url("../img/flags/md/kor.png");
+}
+.ksa{
+    background-image: url("../img/flags/md/ksa.png");
+}
+.mar{
+    background-image: url("../img/flags/md/mar.png");
+}
+.mex{
+    background-image: url("../img/flags/md/mex.png");
+}
+.nga{
+    background-image: url("../img/flags/md/nga.png");
+}
+.pan{
+    background-image: url("../img/flags/md/pan.png");
+}
+.per{
+    background-image: url("../img/flags/md/per.png");
+}
+.pol{
+    background-image: url("../img/flags/md/pol.png");
+}
+.por{
+    background-image: url("../img/flags/md/por.png");
+}
+.rus{
+    background-image: url("../img/flags/md/rus.png");
+}
+.sen{
+    background-image: url("../img/flags/md/sen.png");
+}
+.srb{
+    background-image: url("../img/flags/md/srb.png");
+}
+.sui{
+    background-image: url("../img/flags/md/sui.png");
+}
+.swe{
+    background-image: url("../img/flags/md/swe.png");
+}
+.tun{
+    background-image: url("../img/flags/md/tun.png");
+}
+.uru{
+    background-image: url("../img/flags/md/uru.png");
+}
+
+.apostas, .jogos{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.apostas .panel-default, .jogos .panel-default, .regras{
+    border-color: transparent!important;
+}
+
+.apostas .panel, .jogos .panel, .regras{
+    background-color: transparent!important; 
+}
+
+.titulos{
+    /*text-align: center;*/
+    color: #fff;
+    font-family: 'FonteFifa';
+}
+
+.title {
+    font-size: 84px;
+}
+
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+body{
+    overflow-y: auto !important;
+    background: #0f4583 url("../img/bg.png") repeat;
+}
+
+.headerBG{
+    background-image: url("../img/cup.png");
+}
+
+@font-face {
+    font-family: 'FonteFifa'; /*a name to be used later*/
+    src: url('../font/dusha-regular.woff.ttf'); /*URL to font*/
+}
+
+
+.bghome{
+    background-image: url("../img/bghome.png") ;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fonteFifa{
+    /*color: #0f4583 !important;*/
+    font-family: 'FonteFifa';
+}
+
+.tituloHeader{
+    color: #0f4583 !important;
+    font-size: xx-large;
+    font-family: 'FonteFifa';
+}
+
+.linksHeader > a, #apostaHeader{
+    font-family: 'FonteFifa';
+    color: #0f4583 !important;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#apostaHeader .dropdown-menu>li>a{
+    font-family: 'FonteFifa';
+    color: #0f4583 !important;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    text-transform: none;
+}
+
+
+.flag{
+    display: inline-block;
+    height: 32px;  /*height of icon */
+    width: 64px;  
+    background-size: 64px 32px;
+    }
+    
+.iconeTaca{
+    display: inline-block;
+    height: 295px;  /*height of icon */
+    width: 299px;  
+    background-size: 430px 330px;
+    background-image: url("../img/iconeTaca.png");
+}
+    
+.jogosTitulos, .pontosTitulos{
+    font-family: 'FonteFifa';
+    font-size: 20px; 
+    color: #0f4583 !important;
+    /* margin-top: 20px; */
+}
+
+.pontos >.panel-heading {
+    height: 55px;
+}
+
+.jogoTimed{
+    font-weight: normal;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.center{
+    text-align: -webkit-center;
+}
+
+.right{
+    text-align: -webkit-right;
+}
+
+.left{
+    text-align: -webkit-left;
+}
+
+.jogo, .apostarBotao{
+    margin-top: 10px;
+}
+
+.jogos{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.placar{
+    font-size: 49px; 
+    line-height: 1;
+    font-weight: bold;
+}
+
+.apostaPlacar{
+    width: 45px;
+    text-align: center;
+    background-color: #fff;
+    border-color: #BDB289;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: thin;
+    color: #0f4583 !important;
+    font-size: 16px;
+}
+
+.apostaPlacar .mod::-webkit-outer-spin-button, 
+.apostaPlacar .mod::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    background: #FFF url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAKUlEQVQYlWNgwAT/sYhhKPiPT+F/LJgEsHv37v+EMGkmkuImoh2NoQAANlcun/q4OoYAAAAASUVORK5CYII=) no-repeat center center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1em;
+    border-left: 1px solid #BBB;
+    opacity: .5; /* shows Spin Buttons per default (Chrome >= 39) */
+}
+
+.bgApostaJogo{
+    background-image: url("../img/jogoW.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 15px;
+}
+
+.aposta{
+    margin: 20px;
+}
+
+.pontos, .apostas .panel-body, .jogos .panel-body, .regras .panel-body, .regras{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.apostarBotao .active, .apostarBotao:hover, .open>.apostarBotao.dropdown-toggle {
+    color: #0f4583;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.918);
+    border-color: #0f4583;   
+}
+/* .apostaPlacar .active, .apostaPlacar:active, .apostaPlacar:hover, .open>.apostaPlacar .dropdown-toggle {
+    border-color: #0f4583; 
+} */
+
+.apostaPlacar:focus{
+    outline: none;
+}
+
+.apostarBotao{
+    color: #BDB289;
+    background-color: #fff;
+    border-color: #BDB289;
+    font-size: 16px;
+}
+
+.escondido{
+    color: #fff;
+}
+
+.loginPanel{
+    margin: 20px;
+}
+
+.fa-gitlab{
+    font-size: large;
+}
+
+.navbar-default .navbar-nav>li>a{
+    /* font-family: 'FonteFifa'; */
+    color: #0f4583 !important;
+}
+
+.regras .panel-heading{
+    font-family: 'FonteFifa';
+    font-size: 26px;
+}
+
+/* .bgRegras{
+    display: inline-block;
+    height: 324px;
+    margin-bottom: 15px;
+    background-image: url("../img/regras.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+
+.bgRegras {
+    height: 324px;
+    background-image: url(../img/regras.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background: url(../img/regras.svg) center center contain no-repeat fixed;  */
+}
+
+.img-fluid{
+    max-width: 100%;
+    /* height: max-content; */
+}
+
+/* 
+.bgRegras{
+    display: inline-block;
+    height: 324px;
+    margin-bottom: 15px;
+    background-image: url("../img/regras.svg");
+    background-repeat: no-repeat;
+} */
+/* .img-fluid. max-width: 100%; and height: auto; */
+.homeI{
+    background-image: url(../img/homeI.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.regras, .regras h2 {
+    color: #0f4583 !important;
+}
+
+.regras .panel-body {
+    padding: 0 !important;
+}
+.regras #p1{
+    font-weight: bold;
+}
+
+.descRegras{
+    margin-top: 78px;
+    font-size: 24px;
+    margin-left: 85px;
+}
+
+/* background: url(background-photo.jpg) center center cover no-repeat fixed; */
+
+#copyright{
+    color: #0f4583; /*3097D1*/
+    margin-top: 5px;
+}
+
+#copyright a{
+    color: #0f4583;
+}
+
+#copyright a:hover{
+    color: #3097D1;
+}
+
+#placarAposta{
+    font-size: 49px;
+    /* color: #0f4583; */
+}
+    
+.footerDisgramado{
+    position:fixed;
+    width:100%;
+    bottom:0px;
+    background-color: #fff;
+    border-top: #d3e0e9 1px solid;
+}
+
+.mapostasPontos{
+    font-weight: normal;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.deletar{
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+.deletar .far{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+#myModal{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-title{
+    color: #0f4583;
+    font-size: 25px;
+}
+
+.modal-body{
+    font-size: 20px;
+}
+
+#deletar{
+    margin-top: 37px; 
+    background: transparent;
+}
+
+#deletar:hover {
+    color: #fff;
+}
