@@ -22,25 +22,33 @@ class JogosController extends Controller
      */
     public function index(){
         $this->initialize();
+        $qntd = 0;
 
         $jogos = $this->getJogos('jogos'); // jogos Banco
         $traducao = $this->getJogos('traducao');
-        $flag = $this->getJogos('flag');                        
-        $dataHoraAtual = date("d/m/Y H:i");
+        $flag = $this->getJogos('flag');      
+
+        foreach($jogos as $jogo){
+            $qntd++;
+        }
         
-        if(!empty($jogos)){
+        $dataHoraAtual = date("d/m/Y H:i");
+
+      
+        if($qntd > 0){
             foreach($jogos as $jogo){
-            
                 $dataBanco = date("d/m/Y H:i", strtotime($jogo['jogo_data_hora']));
-    
-                dd($dataBanco);
+         
+                if($jogo['jogo_status'] == 'TIMED'){
+                    if($dataBanco < $dataHoraAtual){
+                        //UPDATE
+                    }
+                }
             }
         }else{
-            $this->inserirJogos();
+           $this->inserirJogos();
         }
 
-        
-        // $this->inserirJogos();
 
         return view('jogos', compact('jogos', 'traducao', 'flag'));
     }

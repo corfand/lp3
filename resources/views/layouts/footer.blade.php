@@ -1,6 +1,6 @@
 <div class="footerDisgramado center">
     <div class="col-md-12 center" id="copyright">
-        <a href="http://trab.dc.unifil.br/gitlab/gabrielpraxedes/bolao-copa/"><i class="fab fa-gitlab"></i> Gitlab</a> 
-        © Andréa Corrêa & Gabriel Praxedes
+        <a href="https://github.com/corfand/lp3"><i class="fab fa-github"></i> Github</a> 
+        © Andréa Corrêa
     </div>
 </div>

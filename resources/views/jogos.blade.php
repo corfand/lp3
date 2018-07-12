@@ -8,10 +8,28 @@
 
         <div class="panel panel-default">
             <div class="panel-body">
+                
+                  <div class="collapse navbar-collapse" id="ordenar">
+                        <ul class="nav navbar-nav">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a  href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                        Ordenar por <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a>Mais Recentes</a></li>
+                                        <li><a>Mais Antigos</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
 
                 @foreach($jogos as $jogo) 
                 
-                @if($jogo['status'] != 'SCHEDULED')   
+                @if($jogo['jogo_status'] != 'SCHEDULED')  
+                    
                     <div class="col-md-12 bgApostaJogo">  
                         <form class="aposta">                                          
                             <div class="row">
@@ -25,10 +43,10 @@
                                 <div class="col-md-4 center">
                                 <!-- <div class="col-md-12 center jogoTimed"> -->
                                     <span class="center jogoTimed"> 
-                                        {{date('d/m H:i', strtotime($jogo['date']))}}
+                                        {{date('d/m H:i', strtotime($jogo['jogo_data_hora']))}}
                                     </span>
                                 
-                                    @if($jogo['status'] != 'TIMED')
+                                    @if($jogo['jogo_status'] != 'TIMED')
                                         <span id="placar" class="col-md-12 center placar">
                                             {{$jogo['jogo_casa_placar']}} x {{$jogo['jogo_fora_placar']}}
                                         </span>

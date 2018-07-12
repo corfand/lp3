@@ -453,3 +453,37 @@ body{
 #deletar:hover {
     color: #fff;
 }
+
+#ordenar{
+    background-color: transparent;
+    float: right;
+}
+
+#ordenar a{
+    color: #BDB289;
+}
+
+#ordenar a:hover{
+    color: #3097D1;
+    background-color: transparent;
+}
+
+#ordenar .open, #ordenar .open a,  #ordenar .open a:focus{
+    background-color: transparent !important;
+}
+
+#ordenar .dropdown-menu{
+    min-width: 141px;
+    
+    /* left: 15px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px; */
+
+    left: -40px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#ordenar .dropdown-menu a{
+    margin-left: 22px;
+    padding: 5px;
+}
